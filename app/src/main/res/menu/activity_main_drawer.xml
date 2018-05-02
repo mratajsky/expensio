@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_category_holder"
+            android:title="@string/drawer_categories_title">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_category_all"
+                    android:icon="@drawable/ic_group_work_black_24dp"
+                    android:checkable="true"
+                    android:title="@string/drawer_categories_all"/>
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/drawer_manage_categories"
+            android:checkable="false"
+            android:orderInCategory="1"/>
+    </group>
+</menu>

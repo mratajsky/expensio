@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Příjmy a výdaje</string>
+
+    <string name="title_activity_categories">Správa kategorií</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Zrušit</string>
+    <string name="save">Uložit</string>
+    <string name="deleted">Smazáno</string>
+    <plurals name="selected_count">
+        <item quantity="one">%d položka vybrána</item>
+        <item quantity="few">%d položky vybrány</item>
+        <item quantity="other">%d položek vybráno</item>
+    </plurals>
+
+    <string name="drawer_categories_title">Kategorie</string>
+    <string name="drawer_categories_all">Všechny</string>
+    <string name="drawer_manage_categories">Správa kategorií</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Nastavení</string>
+
+    <string name="input_description">Popis</string>
+    <string name="input_amount">Částka</string>
+    <string name="input_expense">Výdej</string>
+    <string name="input_income">Příjem</string>
+    <string name="input_date">Datum</string>
+    <string name="input_categories">Kategorie</string>
+    <string name="input_notes">Poznámky</string>
+
+    <string name="input_err_description">Zadejte popis</string>
+    <string name="input_err_amount">Zadejte částku</string>
+
+    <string name="category_dialog_title_add">Nová kategorie</string>
+    <string name="category_dialog_title_edit">Upravit kategorii</string>
+    <string name="category_dialog_hint">Zadejte název kategorie</string>
+    <string name="category_dialog_confirm">Opravdu chcete smazat vybrané kategorie?</string>
+
+    <string name="expense_dialog_confirm">Opravdu chcete smazat vybrané položky?</string>
+
+    <string name="expense_category_dialog_select">Vyberte kategorie</string>
+
+    <string name="chart_monthly_overview">Měsícní přehled</string>
+    <string name="chart_yearly_overview">Roční přehled</string>
+
+    <string name="chart_select_period">Změnit období</string>
+    <string name="chart_select_type">Změnit graf</string>
+
+    <string name="chart_period_title">Vyberte zobrazené období</string>
+    <string name="chart_type_title">Vyberte graf</string>
+
+    <string-array name="chart_period">
+        <item>Měsíční přehled</item>
+        <item>Roční přehled</item>
+    </string-array>
+    <string name="chart_category">Kategorie %s</string>
+    <string name="chart_year">Rok %d</string>
+</resources>
